@@ -1,0 +1,51 @@
+.vopApp{
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+.yearCss{
+    border: none;
+    border: solid 1px white;
+    border-radius: 8px;
+}
+.yearCss:hover{
+    transform: scale(1.1, 1.1);   
+    /* border: solid 1px red; */
+}
+
+.itemCss{
+
+}
+
+.itemCss:hover{
+ transform: scale(1.05, 1.05);   
+}
+.infoCss{
+    font-size: 1.7em;
+}
+.page404{
+    height: 100vh;
+    width: 100%;
+}
+
+.vodApp_img{
+    height: 400px;
+}
+
+.loadingCss{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .vodApp_img{
+        height: 275px;
+    }
+    .info-text{
+        text-align: center;
+    }
+    .info_stars{
+        justify-content: center;
+    }
+    }
